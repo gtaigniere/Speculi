@@ -1,0 +1,108 @@
+* {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    width: 100%;
+    background-color: LightCyan;
+}
+nav {
+    width: 50%;
+}
+nav ul {
+    margin: auto;
+    padding: 12px 30px;
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin: auto;
+}
+form {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+form input {
+    width: 60%;
+    max-width: 240px;
+    border-radius: 6px 0 0 6px;
+}
+form button {
+    margin: 0;
+    padding: 0 5px 0 2px;
+    width: 26px;
+    border-radius: 0 6px 6px 0;
+}
+form img {
+    margin-top: 3px;
+    width: 18px;
+    border-radius: 0 6px 6px 0;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+section h1 {
+    text-align: center;
+    font-size: 2em;
+}
+section figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+}
+section figure img {
+    margin-bottom: 20px;
+    height: 280px;
+    border-radius: 12px;
+    background-color: lightgreen;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+    width: 100%;
+}
+footer > div:first-child {
+    display: flex;
+    flex-direction: column;
+    background-color: khaki;
+}
+footer > div:first-child p {
+    margin: 4px auto;
+    padding: 0 4px 3px;
+    background-color: gold;
+    border-radius: 6px;
+    color: dark;
+}
+footer > div > figure {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+    height: 52px;
+    width: 100%;
+}
+footer div img {
+    margin: auto;
+    height: 40px;
+    border-radius: 6px;
+    background-color: lightgreen;
+}
+footer > div:last-child {
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+    height: 44px;
+    background-color: #FF9999;
+}
